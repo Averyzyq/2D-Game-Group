@@ -1,4 +1,4 @@
-[gd_scene load_steps=50 format=3 uid="uid://bmul6gare3yxr"]
+[gd_scene load_steps=51 format=3 uid="uid://bmul6gare3yxr"]
 
 [ext_resource type="Script" path="res://scripts/game_manager.gd" id="1_nl1fl"]
 [ext_resource type="PackedScene" uid="uid://cyst85fsck5xa" path="res://scenes/player_test.tscn" id="1_rhjrj"]
@@ -27,6 +27,7 @@
 [ext_resource type="Texture2D" uid="uid://bqio3aqvkdf5e" path="res://asset/Background/Background_Hills_v1.0(1)/_PNG/background2.png" id="22_ocjig"]
 [ext_resource type="Texture2D" uid="uid://chsectf2qrs1i" path="res://asset/Background/Background_Hills_v1.0(1)/_PNG/background3.png" id="23_4yps8"]
 [ext_resource type="Texture2D" uid="uid://bnhd54cvqolmx" path="res://asset/Background/Background_Hills_v1.0(1)/_PNG/background4.png" id="24_4hfqk"]
+[ext_resource type="PackedScene" uid="uid://cbeeqdsg66oyy" path="res://scenes/push box.tscn" id="28_jlrgf"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h1kba"]
 texture = ExtResource("2_m61h0")
@@ -778,3 +779,6 @@ texture = ExtResource("23_4yps8")
 
 [node name="Sprite2D3" type="Sprite2D" parent="Sprite2D"]
 texture = ExtResource("24_4hfqk")
+
+[node name="pushbox" parent="." instance=ExtResource("28_jlrgf")]
+position = Vector2(84, 92)
